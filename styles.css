@@ -1,0 +1,46 @@
+/* Reset */
+
+:root {
+  /* Primary */
+  --Dark-Blue-email-bg: #1c2431;
+  --Dark-Blue-main-bg: #181f2a;
+  --Dark-Blue-footer-bg: #0b1523;
+  --Dark-Blue-testimonials-bg: #202a3c;
+  /* Accent */
+  --Cyan-gradient: #65e2d9;
+  --Blue-gradient: #339ecc;
+  --Light-Red: #ff4242;
+  /* Neutral */
+  --White: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  Font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Raleway', sans-serif; (Headings, Call-to-actions, Header Navigation) */
+}
+
+html, body {
+  height: 100%;
+}
+
+/* Header */
+
+header {
+  background: var(--Dark-Blue-main-bg);
+}
+
+/* Main */
+
+main {
+  background: var(--Dark-Blue-main-bg);
+}
+
+/* Footer */
+
+footer {
+  background: var(--Dark-Blue-footer-bg);
+}
