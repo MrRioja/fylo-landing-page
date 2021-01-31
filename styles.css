@@ -17,10 +17,10 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   Font-size: 14px;
+  color: var(--White);
+  box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
-  /* font-family: 'Raleway', sans-serif; (Headings, Call-to-actions, Header Navigation) */
 }
 
 html, body {
@@ -30,7 +30,20 @@ html, body {
 /* Header */
 
 header {
+  display: flex;
+  padding: 4rem;
+  justify-content: space-between;
+  align-items: center;
   background: var(--Dark-Blue-main-bg);
+}
+
+header a {
+  text-decoration: none;
+  font-family: Raleway, sans-serif;
+}
+
+header a:not(:first-child) {
+  margin-left: 4rem;
 }
 
 /* Main */
@@ -39,8 +52,46 @@ main {
   background: var(--Dark-Blue-main-bg);
 }
 
+/* Section Intro */
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.intro img {
+  margin-bottom: 3rem;
+}
+
+.intro h1 {
+  width: 760px;
+  font-size: 2.7rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.intro p {
+  width: 410px;
+  text-align: center;
+  margin-bottom: 2rem;
+  line-height: 1.7rem;
+}
+
+.intro button {
+  width: 200px;
+  padding: 1rem;
+  outline: none;
+  border: none;
+  font-weight: bold;
+  border-radius: 2rem;
+  background: linear-gradient(90deg, var(--Cyan-gradient), var(--Blue-gradient));
+}
+
 /* Footer */
 
 footer {
   background: var(--Dark-Blue-footer-bg);
 }
+
+/* (Headings, Call-to-actions, Header Navigation) */
