@@ -101,9 +101,10 @@ main {
 .feature {
   width: 380px;
   display: flex;
+  align-items: center;
+  margin-bottom: 6rem;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
 }
 
 .feature img {
@@ -118,6 +119,46 @@ main {
   text-align: center;
   line-height: 1.7rem;
   margin-bottom: 6rem;
+}
+
+/* Section Documentation */
+
+.documentation {
+  width: 90%;
+  display: flex;
+  margin-left: 5%;
+  align-items: center;
+  margin-bottom: 10rem;
+  justify-content: space-between;
+}
+
+.instructions {
+  width: 500px;
+  text-align: start;
+}
+
+.instructions h2 {
+  width: 400px;
+  font-size: 2.7rem;
+  margin-bottom: 1rem;
+}
+
+.instructions p {
+  line-height: 1.7rem;
+  margin-bottom: 2rem;
+}
+
+.instructions a {
+  align-items: center;
+  display: inline-flex;
+  height: 35px;
+  text-decoration: none;
+  color: var(--Cyan-gradient);
+  border-bottom: 1px solid var(--Cyan-gradient);
+}
+
+.instructions a img {
+  margin-left: 0.5rem;
 }
 
 /* Footer */
