@@ -161,6 +161,46 @@ main {
   margin-left: 0.5rem;
 }
 
+/* Section Assessments */
+
+.assessments {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10rem;
+  justify-content: center;
+}
+
+.quotes {
+  /* display: none; */
+}
+
+.assessment {
+  width: 330px;
+  height: 150px;
+  padding: 1.5rem;
+  background: var(--Dark-Blue-testimonials-bg);
+}
+
+.assessment:not(:first-child) {
+  margin-left: 3rem;
+}
+
+.assessment p {}
+
+.author {
+  display: flex;
+  align-items: center;
+}
+
+.author img {
+  width: 30px;
+  border-radius: 50%;
+}
+
+.author h5 {}
+
+.author h6 {}
+
 /* Footer */
 
 footer {
