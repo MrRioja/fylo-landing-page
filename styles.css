@@ -79,7 +79,7 @@ main {
   line-height: 1.7rem;
 }
 
-.intro button {
+.btn-get-started {
   width: 200px;
   padding: 1rem;
   outline: none;
@@ -166,29 +166,30 @@ main {
 .assessments {
   display: flex;
   align-items: center;
-  margin-bottom: 10rem;
+  margin-bottom: 7rem;
   justify-content: center;
-}
-
-.quotes {
-  /* display: none; */
-}
-
-.assessment {
-  width: 330px;
-  height: 150px;
-  padding: 1.5rem;
-  background: var(--Dark-Blue-testimonials-bg);
 }
 
 .assessment:not(:first-child) {
   margin-left: 3rem;
 }
 
-.assessment p {}
+.assessment {
+  z-index: 1;
+  width: 350px;
+  height: 210px;
+  border-radius: 5px;
+  padding: 2.7rem 2rem 2.5rem;
+  background: var(--Dark-Blue-testimonials-bg);
+}
+
+.assessment p {
+  line-height: 1.7rem;
+}
 
 .author {
   display: flex;
+  margin-top: 20px;
   align-items: center;
 }
 
@@ -197,13 +198,73 @@ main {
   border-radius: 50%;
 }
 
-.author h5 {}
+.author div {
+  margin-left: 10px;
+}
 
-.author h6 {}
+.author h5 {
+  font-size: 12px;
+}
+
+.author h6 {
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.quotes {
+  top: -117px;
+  left: -1144px;
+  position: relative;
+}
+
+/* Section Access */
+
+.access {
+  display: flex;
+  justify-content: center;
+}
+
+.get-started {
+  top: 80px;
+  width: 900px;
+  height: 250px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-radius: 0.7rem;
+  flex-direction: column;
+  justify-content: center;
+  background: var(--Dark-Blue-email-bg);
+}
+
+.get-started h2 {
+  font-size: 2.7rem;
+  margin-bottom: 2rem;
+}
+
+.get-started p {
+  width: 650px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.email-input {
+  width: 700px;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.email-input input {
+  width: 470px;
+  outline: none;
+  padding: 1rem 3rem;
+  border-radius: 2rem;
+}
 
 /* Footer */
 
 footer {
+  height: 700px;
   background: var(--Dark-Blue-footer-bg);
 }
 
