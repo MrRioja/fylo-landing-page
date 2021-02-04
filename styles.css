@@ -81,9 +81,10 @@ main {
 
 .btn-get-started {
   width: 200px;
+  border: none;
   padding: 1rem;
   outline: none;
-  border: none;
+  cursor: pointer;
   font-weight: bold;
   border-radius: 2rem;
   background: linear-gradient(90deg, var(--Cyan-gradient), var(--Blue-gradient));
@@ -256,7 +257,9 @@ main {
 
 .email-input input {
   width: 470px;
+  border: none;
   outline: none;
+  color: black;
   padding: 1rem 3rem;
   border-radius: 2rem;
 }
@@ -264,8 +267,23 @@ main {
 /* Footer */
 
 footer {
-  height: 700px;
+  height: 400px;
+  display: flex;
+  padding-top: 10rem;
   background: var(--Dark-Blue-footer-bg);
 }
 
-/* (Headings, Call-to-actions, Header Navigation) */
+.company {
+  margin-left: 5rem;
+}
+
+.company div {
+  display: flex;
+  align-items: flex-start;
+}
+
+.company div img {}
+
+.company div p {
+  width: 300px;
+}
