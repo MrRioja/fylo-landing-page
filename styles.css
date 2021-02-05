@@ -277,13 +277,59 @@ footer {
   margin-left: 5rem;
 }
 
+.company>img {
+  width: 100px;
+  margin-bottom: 3rem;
+}
+
 .company div {
   display: flex;
   align-items: flex-start;
 }
 
-.company div img {}
+.company div img {
+  margin: 5px 2rem 0 0;
+}
 
 .company div p {
   width: 300px;
+}
+
+.contacts {
+  display: flex;
+  margin: 0 5rem;
+  padding-top: 80px;
+  flex-direction: column;
+}
+
+.contacts span {
+  display: flex;
+  align-items: center;
+}
+
+.contacts span:first-child {
+  margin-bottom: 1.2rem;
+}
+
+.contacts span>img {
+  margin-right: 1.5rem;
+}
+
+.options {
+  display: grid;
+  column-gap: 4rem;
+  margin-top: 2rem;
+  align-items: center;
+  align-content: center;
+  grid-template-rows: repeat(4, 40px);
+  grid-template-columns: repeat(2, 80px);
+}
+
+.options a {
+  text-decoration: none;
+}
+
+.options a:hover {
+  cursor: pointer;
+  font-weight: bold;
 }
