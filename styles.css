@@ -335,3 +335,21 @@ footer {
 }
 
 /* Social Medias */
+
+.social-media {
+  display: flex;
+}
+
+.social-media>.medias-container:not(:first-child) {
+  margin-left: 2rem;
+}
+
+.medias-container {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  border-radius: 25px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--White);
+}
