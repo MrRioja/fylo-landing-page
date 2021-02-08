@@ -42,6 +42,11 @@ header a {
   font-family: Raleway, sans-serif;
 }
 
+header a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 header a:not(:first-child) {
   margin-left: 4rem;
 }
@@ -88,6 +93,10 @@ main {
   font-weight: bold;
   border-radius: 2rem;
   background: linear-gradient(90deg, var(--Cyan-gradient), var(--Blue-gradient));
+}
+
+.btn-get-started:hover {
+  background: var(--Cyan-gradient);
 }
 
 /* Section Features */
@@ -158,8 +167,21 @@ main {
   border-bottom: 1px solid var(--Cyan-gradient);
 }
 
-.instructions a img {
+.instructions a:hover {
+  color: var(--White);
+  border-bottom: 1px solid var(--White);
+}
+
+.instructions svg {
   margin-left: 0.5rem;
+}
+
+.instructions a:hover .arrow g use {
+  fill: var(--White);
+}
+
+.instructions a:hover .arrow path {
+  fill: var(--Dark-Blue-main-bg);
 }
 
 /* Section Assessments */
@@ -228,7 +250,7 @@ main {
 .get-started {
   top: 80px;
   width: 900px;
-  height: 250px;
+  height: 300px;
   display: flex;
   position: relative;
   align-items: center;
@@ -240,7 +262,7 @@ main {
 
 .get-started h2 {
   font-size: 2.7rem;
-  margin-bottom: 2rem;
+  margin: 4rem 0 2rem 0;
 }
 
 .get-started p {
@@ -262,6 +284,14 @@ main {
   color: black;
   padding: 1rem 3rem;
   border-radius: 2rem;
+}
+
+.alert {
+  left: -188px;
+  font-weight: bold;
+  position: relative;
+  margin: 7px 0 20px 0;
+  color: var(--Light-Red);
 }
 
 /* Footer */
@@ -338,6 +368,7 @@ footer {
 
 .social-media {
   display: flex;
+  padding: 5.4rem 4rem;
 }
 
 .social-media>.medias-container:not(:first-child) {
@@ -348,8 +379,22 @@ footer {
   width: 40px;
   height: 40px;
   display: flex;
-  border-radius: 25px;
+  border-radius: 50%;
   align-items: center;
   justify-content: center;
   border: 1px solid var(--White);
+}
+
+.medias-container i {
+  font-size: 1.1rem;
+}
+
+.medias-container:hover i {
+  cursor: pointer;
+  color: var(--Cyan-gradient);
+}
+
+.medias-container:hover {
+  cursor: pointer;
+  border: 1px solid var(--Cyan-gradient);
 }
