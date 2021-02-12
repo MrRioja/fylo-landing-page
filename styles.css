@@ -34,7 +34,7 @@ header {
   padding: 4rem;
   justify-content: space-between;
   align-items: center;
-  background: var(--Dark-Blue-main-bg);
+  background: var(--Dark-Blue-email-bg);
 }
 
 header a {
@@ -61,9 +61,10 @@ main {
 
 .intro {
   display: flex;
+  position: relative;
   align-items: center;
-  margin-bottom: 10rem;
   flex-direction: column;
+  background: var(--Dark-Blue-email-bg);
 }
 
 .intro img {
@@ -71,6 +72,7 @@ main {
 }
 
 .intro h1 {
+  z-index: 1;
   width: 760px;
   font-size: 2.7rem;
   text-align: center;
@@ -78,6 +80,7 @@ main {
 }
 
 .intro p {
+  z-index: 1;
   width: 410px;
   text-align: center;
   margin-bottom: 2rem;
@@ -85,18 +88,27 @@ main {
 }
 
 .btn-get-started {
+  z-index: 1;
   width: 200px;
   border: none;
   padding: 1rem;
   outline: none;
   cursor: pointer;
   font-weight: bold;
+  /* margin-bottom: 14rem; */
   border-radius: 2rem;
   background: linear-gradient(90deg, var(--Cyan-gradient), var(--Blue-gradient));
 }
 
 .btn-get-started:hover {
   background: var(--Cyan-gradient);
+}
+
+#bg-image {
+  margin: 0;
+  bottom: 0;
+  width: 100%;
+  position: absolute;
 }
 
 /* Section Features */
