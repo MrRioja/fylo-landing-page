@@ -95,9 +95,12 @@ main {
   outline: none;
   cursor: pointer;
   font-weight: bold;
-  /* margin-bottom: 14rem; */
   border-radius: 2rem;
   background: linear-gradient(90deg, var(--Cyan-gradient), var(--Blue-gradient));
+}
+
+.top {
+  margin-bottom: 14rem;
 }
 
 .btn-get-started:hover {
@@ -289,7 +292,7 @@ main {
   justify-content: space-between;
 }
 
-.email-input input {
+#email {
   width: 470px;
   border: none;
   outline: none;
@@ -298,11 +301,16 @@ main {
   border-radius: 2rem;
 }
 
+#email:invalid+span {
+  display: block;
+}
+
 .alert {
-  left: -188px;
+  bottom: 5px;
+  display: none;
   font-weight: bold;
-  position: relative;
-  margin: 7px 0 20px 0;
+  margin-left: 3rem;
+  position: absolute;
   color: var(--Light-Red);
 }
 
