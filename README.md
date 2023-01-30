@@ -1,58 +1,84 @@
-# Frontend Mentor - Fylo landing page with dark theme and features grid
+# Fylo Dark Theme Landing Page Challenge
 
-![Design preview for the Fylo landing page with dark theme and features grid challenge](./design/desktop-preview.jpg)
+<p align="center">
+  <img src="https://img.shields.io/static/v1?label=frontend&message=mentor&color=blueviolet&style=for-the-badge"/>
+  <img src="https://img.shields.io/github/license/MrRioja/fylo-landing-page?color=blueviolet&logo=License&style=for-the-badge"/>
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/MrRioja/fylo-landing-page?color=blueviolet&logo=html5&logoColor=white&style=for-the-badge">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/MrRioja/fylo-landing-page?color=blueviolet&style=for-the-badge">
+</p>
 
-## Welcome! 👋
+<p align="center">
+  <a href="#sobre">Sobre</a> •
+  <a href="#fylo-dark-theme-landing-page">Fylo Dark Theme Landing Page</a> •
+  <a href="#instalação">Instalação</a> •
+  <a href="#tecnologias">Tecnologias</a> •
+  <a href="#autor">Autor</a>  
+</p>
 
-Thanks for checking out this front-end coding challenge.
+## Sobre
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges allow you to improve your skills in a real-life workflow.
+Projeto desenvolvido para solucionar [esse desafio](https://www.frontendmentor.io/challenges/fylo-dark-theme-landing-page-5ca5f2d21e82137ec91a50fd) do Frontend Mentor.
 
-**To do this challenge you need a basic understanding of HTML and CSS.**
+## Fylo Dark Theme Landing Page
 
-## Where to find everything
+Desafio do Frontend Mentor desenvolvido com o objetivo de praticar os conceitos estudados sobre display grid e flex.
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design to work to. 
+A página é bem simples e não possui nenhuma funcionalidade pois a ideia é implementar o layout proposto.
+Deixo abaixo um preview do projeto:
 
-The designs are in JPG static format. This will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. This should help train your eye to perceive differences in spacings and sizes.
+![Price grid preview](design/desktop-preview.jpg)
 
-If you would like the Sketch file in order to inspect the design in more detail you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
+## Instalação
 
-You will find all the required assets in the `/images` folder. The assets are already optimized.
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com).
+Além disso é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/).
 
-There is also a `style-guide.md` file, which contains the information you'll need, such as color palette and fonts.
+### 🖥️ Rodando o Front End (Web)
 
-## Building your project
+```bash
+# Clone este repositório
+$ git clone git@github.com:MrRioja/fylo-landing-page.git
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+# Acesse a pasta do projeto no terminal/cmd
+$ cd fylo-landing-page
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). This will make it easier to share your code with the community if you need some help. If you're not sure how to do this, [have a read through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a URL. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, but we recommend using [Vercel](https://bit.ly/fem-vercel). We've got more information about deploying your project with Vercel below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes that you could create to make reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+# Agora basta abrir o arquivo index.html em algum navegador de sua preferência
+```
 
-## Deploying your project
+## Tecnologias
 
-As mentioned above, there are a number of ways to host your project for free. We recommend using [Vercel](https://bit.ly/fem-vercel) as it's an amazing service and extremely simple to get set up with. If you'd like to use Vercel, here are some steps to follow to get started:
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/CSS3_and_HTML5_logos_and_wordmarks.svg/1280px-CSS3_and_HTML5_logos_and_wordmarks.svg.png" alt="HTML5 e CSS3 logo" height="150" />
 
-1. [Sign up to Vercel](https://bit.ly/fem-vercel-signup) and go through the onboarding flow, ensuring your GitHub account is connected by using their [Vercel for GitHub](https://vercel.com/docs/v2/git-integrations/vercel-for-github) integration.
-2. Connect your project to Vercel from the ["Import project" page](https://vercel.com/import), using the "From Git Repository" button and selecting the project you want to deploy.
-3. Once connected, every time you `git push`, Vercel will create a new [deployment](https://vercel.com/docs/v2/platform/deployments) and the deployment URL will be shown on your [Dashboard](https://vercel.com/dashboard). You will also receive an email for each deployment with the URL.
+## Autor
 
-## Sharing your solution
+<div align="center">
+<img src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/55336456?v=4&h=100&w=100&fit=cover&mask=circle&maxage=7d" />
+<h1>Luiz Rioja</h1>
+<strong>Backend Developer</strong>
+<br/>
+<br/>
 
-There are multiple places you can share your solution:
+<a href="https://linkedin.com/in/luizrioja" target="_blank">
+<img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
 
-1. Submit it on the platform so that other users will see your solution on the site. Here's our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) to help you do that.
-2. Share your solution page in the **#finished-projects** channel of the [Slack community](https://www.frontendmentor.io/slack).
-3. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor** including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
+<a href="https://github.com/mrrioja" target="_blank">
+<img alt="GitHub" src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
 
-## Giving feedback
+<a href="mailto:lulyrioja@gmail.com?subject=Fala%20Dev" target="_blank">
+<img alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
 
-Feedback is always welcome, so if you have any to give on this challenge please email hi[at]frontendmentor[dot]io.
+<a href="https://api.whatsapp.com/send?phone=5511933572652" target="_blank">
+<img alt="WhatsApp" src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/>
+</a>
 
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
+<a href="https://join.skype.com/invite/tvBbOq03j5Uu" target="_blank">
+<img alt="Skype" src="https://img.shields.io/badge/SKYPE-%2300AFF0.svg?style=for-the-badge&logo=Skype&logoColor=white"/>
+</a>
 
-**Have fun building!** 🚀
+<br/>
+<br/>
+</div>
